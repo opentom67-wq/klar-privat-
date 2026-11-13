@@ -1,0 +1,58 @@
+KLAR PRIVAT – Kurzbefehle und Benachrichtigungen (iPhone)
+=======================================================
+
+WICHTIG: Automationen können nicht aus einer Website heraus direkt in Apples
+Kurzbefehle-App gespeichert werden. Du musst sie einmal selbst auf dem iPhone
+anlegen und die gewünschten Berechtigungen bestätigen.
+
+1. TIKTOK-ERINNERUNG
+- iPhone → Kurzbefehle → Automation → + → App
+- TikTok wählen → "Wird geöffnet" → "Sofort ausführen"
+- Aktion: "Mitteilung anzeigen" → "KLAR: kurz auf deine Ziele achten"
+- Optional: Aktion "URL öffnen" mit der Adresse deiner KLAR-Website:
+  https://opentom67-wq.github.io/klar-privat-/?shield=normal
+- Bei jedem Öffnen von TikTok wird diese Automation ausgelöst.
+  Das ist keine echte App-Sperre und beendet TikTok nicht zuverlässig
+  nach einer längeren frei wählbaren Zeitspanne.
+
+2. MORGEN- UND ABEND-ERINNERUNGEN
+- Kurzbefehle → Automation → + → Tageszeit
+- Uhrzeit wählen (z. B. 06:00 für morgens)
+- "Sofort ausführen" → Aktion "Mitteilung anzeigen"
+- Text: "KLAR: Morgenroutine beginnen"
+- Für abends eine zweite Automation mit deiner Abendzeit anlegen.
+- Alternativ: In KLAR → Fokus → Automationen → "Routinen als Kalender".
+  Die erzeugten Kalenderdateien musst du in Apple Kalender importieren.
+
+3. SCHRITTE AUS APPLE HEALTH
+- In Kurzbefehle einen neuen Kurzbefehl "KLAR Schritte" erstellen.
+- Health-/Gesundheitsproben suchen: Typ "Schritte", Zeitraum "Heute".
+- Die Werte der Proben addieren (Summe).
+- Einen URL-Text erstellen mit folgendem Muster:
+  https://opentom67-wq.github.io/klar-privat-/?steps=ERGEBNIS
+- Anstelle von ERGEBNIS die Variable mit der berechneten Summe einsetzen.
+- Aktion "URL öffnen" hinzufügen. Beim Aufruf speichert KLAR den Wert lokal.
+- Health-Berechtigungen werden vom iPhone abgefragt. Je nach iOS-Version
+  können Aktionstitel leicht abweichen.
+- Vollautomatischer und unsichtbarer Dauerabgleich ist mit GitHub Pages
+  allein nicht garantiert.
+
+4. KLAUSUREN UND TERMINE
+- KLAR öffnen → Plan → Termin/Klausur eintragen.
+- Auf den Termin tippen → "Kalenderdatei" herunterladen.
+- In Apple Kalender übernehmen, damit das iPhone die Mitteilung übernimmt.
+- Die Web-App sendet keine eigenen Hintergrund-Pushs, solange kein Push-
+  Dienst eingerichtet ist.
+
+5. TRAININGSPLAN
+- KLAR → Plan → Trainingsplan
+- Im Monatskalender einen Tag wählen.
+- Tagestitel, Übungen, Sätze und Wiederholungen frei bearbeiten.
+- Training im Kalender eintragen und für Benachrichtigungen exportieren.
+
+DEINE DATEN
+Deine vorhandenen KLAR-Einträge bleiben beim normalen Update erhalten,
+weil die lokale Datenspeicherung (klar_private_v1) unverändert bleibt.
+Daten niemals über das Löschen der Browser-/Website-Daten 'aktualisieren'.
+Vor Änderungen kann unter KLAR → Einstellungen eine Datensicherung
+heruntergeladen werden.
