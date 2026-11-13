@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#101115"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"><meta name="apple-mobile-web-app-title" content="KLAR">
+<title>KLAR · Dein Tag</title><meta name="description" content="Private Ziele, Kalender, Training, Fokus und Erfolge. Daten bleiben auf deinem Gerät.">
+<link rel="manifest" href="manifest.webmanifest"><link rel="apple-touch-icon" href="icon-192.png"><link rel="icon" type="image/png" href="icon-192.png">
+<link rel="stylesheet" href="style.css">
+</head>
+<body><div class="app-shell">
+<header class="app-header"><div class="brand"><span class="feather-mark" id="headmark"></span><strong>KLAR</strong></div><button id="dateButton" class="date-pill" aria-label="Datum auswählen"></button><div class="head-actions"><button class="flame-icon icon-button" data-action="rewards" aria-label="Flammen und Belohnungen"><span id="headerFlame"></span></button><button class="profile-button" data-action="profile" aria-label="Profil und Einstellungen"><span id="profileInitial">K</span></button></div></header>
+<div id="calendarPop" class="calendar-pop hidden"></div><div id="profilePop" class="profile-pop hidden"></div>
+<main id="main" aria-live="polite"></main>
+<nav class="bottom-tabs" aria-label="Hauptnavigation">
+<button class="tab selected" data-tab="home" aria-label="Übersicht"><span data-icon="home"></span><span>Übersicht</span></button>
+<button class="tab" data-tab="plan" aria-label="Plan"><span data-icon="calendar"></span><span>Plan</span></button>
+<button class="tab" data-tab="focus" aria-label="Fokus"><span data-icon="focus"></span><span>Fokus</span></button>
+<button class="tab" data-tab="progress" aria-label="Erfolge"><span data-icon="feather"></span><span>Erfolge</span></button>
+</nav>
+</div><div id="modalHost"></div><div id="toast" role="status" aria-live="polite"></div><script src="app.js" defer></script></body></html>
